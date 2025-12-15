@@ -35,15 +35,52 @@
         </p>
       </div>
 
-      <section class="section-title">
+      <!-- Filtros -->
+      <div class="filters-section">
+        <div class="filter-group">
+          <h3>Categoría</h3>
+          <div class="filter-buttons">
+            <button type="button" class="filter-btn active" data-category="all">
+              Todas
+            </button>
+            <button type="button" class="filter-btn" data-category="estampada">
+              Estampadas
+            </button>
+            <button type="button" class="filter-btn" data-category="oversize">
+              Oversize
+            </button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <h3>Talla</h3>
+          <div class="filter-buttons">
+            <button type="button" class="filter-btn active" data-size="all">
+              Todas
+            </button>
+            <button type="button" class="filter-btn" data-size="S">S</button>
+            <button type="button" class="filter-btn" data-size="M">M</button>
+            <button type="button" class="filter-btn" data-size="L">L</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mensaje sin resultados -->
+      <div id="no-results" class="no-results" style="display: none">
+        <span>😕</span>
+        <p>No hay productos con los filtros seleccionados</p>
+      </div>
+
+      <section class="section-title" data-section="estampada">
         <h2>CAMISETAS ESTAMPADAS</h2>
         <span class="price-tag">$60.000 COP</span>
       </section>
 
-      <div class="products-grid">
+      <div class="products-grid" data-grid="estampada">
         <!-- Producto 1 -->
         <div
           class="product-card"
+          data-category="estampada"
+          data-size="S"
           onclick="openLightbox('Camiseta Estampada, Blanco, Talla S', ['img/Camiseta Estampada, Blanco, Talla S.jpeg', 'img/Camiseta Estampada, Blanco, Talla S. (2).jpeg'])"
         >
           <div class="product-image">
@@ -57,12 +94,15 @@
             <h3>Camiseta Estampada</h3>
             <p class="product-details">Blanco • Talla S</p>
             <p class="product-price">$60.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
 
         <!-- Producto 2 -->
         <div
           class="product-card"
+          data-category="estampada"
+          data-size="S"
           onclick="openLightbox('Camiseta Estampada, Gris Claro, Talla S', ['img/Camiseta Estampada, Gris Claro, Talla S.jpeg', 'img/Camiseta Estampada, Gris Claro, Talla S..jpeg'])"
         >
           <div class="product-image">
@@ -76,12 +116,15 @@
             <h3>Camiseta Estampada</h3>
             <p class="product-details">Gris Claro • Talla S</p>
             <p class="product-price">$60.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
 
         <!-- Producto 3 -->
         <div
           class="product-card"
+          data-category="estampada"
+          data-size="S"
           onclick="openLightbox('Camiseta Estampada, Negro, Talla S', ['img/Camiseta Estampada, negro, Talla S.jpeg', 'img/Camiseta Estampada, negro, Talla S..jpeg'])"
         >
           <div class="product-image">
@@ -95,12 +138,15 @@
             <h3>Camiseta Estampada</h3>
             <p class="product-details">Negro • Talla S</p>
             <p class="product-price">$60.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
 
         <!-- Producto 4 -->
         <div
           class="product-card"
+          data-category="estampada"
+          data-size="S"
           onclick="openLightbox('Camiseta Estampada, Negro, Talla S', ['img/Camiseta Estampada, color Negro, Talla S.jpeg', 'img/Camiseta Estampada, color Negro, Talla S..jpeg'])"
         >
           <div class="product-image">
@@ -114,12 +160,15 @@
             <h3>Camiseta Estampada</h3>
             <p class="product-details">Negro • Talla S</p>
             <p class="product-price">$60.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
 
         <!-- Producto 5 -->
         <div
           class="product-card"
+          data-category="estampada"
+          data-size="M"
           onclick="openLightbox('Camiseta Estampada, Blanco, Talla M', ['img/Camiseta Estampada, color Blanco, Talla M.jpeg', 'img/Camiseta Estampada, color Blanco, Talla M..jpeg'])"
         >
           <div class="product-image">
@@ -133,12 +182,15 @@
             <h3>Camiseta Estampada</h3>
             <p class="product-details">Blanco • Talla M</p>
             <p class="product-price">$60.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
 
         <!-- Producto 6 -->
         <div
           class="product-card"
+          data-category="estampada"
+          data-size="M"
           onclick="openLightbox('Camiseta Estampada, Negro, Talla M', ['img/Camiseta Estampada, color Negro, Talla M.jpeg', 'img/Camiseta Estampada, color Negro, Talla M..jpeg'])"
         >
           <div class="product-image">
@@ -152,12 +204,15 @@
             <h3>Camiseta Estampada</h3>
             <p class="product-details">Negro • Talla M</p>
             <p class="product-price">$60.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
 
         <!-- Producto 7 -->
         <div
           class="product-card"
+          data-category="estampada"
+          data-size="M"
           onclick="openLightbox('Camiseta Estampada, Hueso, Talla M', ['img/Camiseta Estampada, color hueso, Talla M.jpeg', 'img/Camiseta Estampada, color hueso, Talla M..jpeg'])"
         >
           <div class="product-image">
@@ -171,12 +226,15 @@
             <h3>Camiseta Estampada</h3>
             <p class="product-details">Hueso • Talla M</p>
             <p class="product-price">$60.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
 
         <!-- Producto 8 -->
         <div
           class="product-card"
+          data-category="estampada"
+          data-size="M"
           onclick="openLightbox('Camiseta Estampada, Rojo, Talla M', ['img/Camiseta Estampada, color rojo, Talla M.jpeg', 'img/Camiseta Estampada, color rojo, Talla M..jpeg'])"
         >
           <div class="product-image">
@@ -190,12 +248,15 @@
             <h3>Camiseta Estampada</h3>
             <p class="product-details">Rojo • Talla M</p>
             <p class="product-price">$60.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
 
         <!-- Producto 9 -->
         <div
           class="product-card"
+          data-category="estampada"
+          data-size="L"
           onclick="openLightbox('Camiseta Estampada, Hueso, Talla L', ['img/Camiseta Estampada, Hueso, Talla L.jpeg', 'img/Camiseta Estampada, Hueso, Talla L..jpeg'])"
         >
           <div class="product-image">
@@ -209,12 +270,15 @@
             <h3>Camiseta Estampada</h3>
             <p class="product-details">Hueso • Talla L</p>
             <p class="product-price">$60.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
 
         <!-- Producto 10 -->
         <div
           class="product-card"
+          data-category="estampada"
+          data-size="L"
           onclick="openLightbox('Camiseta Estampada, Negro, Talla L', ['img/Camiseta Estampada, Negro, Talla L.jpeg', 'img/Camiseta Estampada, Negro, Talla L..jpeg'])"
         >
           <div class="product-image">
@@ -228,12 +292,15 @@
             <h3>Camiseta Estampada</h3>
             <p class="product-details">Negro • Talla L</p>
             <p class="product-price">$60.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
 
         <!-- Producto 11 -->
         <div
           class="product-card"
+          data-category="estampada"
+          data-size="L"
           onclick="openLightbox('Camiseta Estampada, Verde Militar, Talla L', ['img/Camiseta Estampada, Verde Militar,  Talla L.jpeg', 'img/Camiseta Estampada, Verde Militar, Talla L..jpeg'])"
         >
           <div class="product-image">
@@ -247,20 +314,23 @@
             <h3>Camiseta Estampada</h3>
             <p class="product-details">Verde Militar • Talla L</p>
             <p class="product-price">$60.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
       </div>
 
       <!-- Oversize Section -->
-      <section class="section-title">
+      <section class="section-title" data-section="oversize">
         <h2>CAMISETAS OVERSIZE</h2>
         <span class="price-tag">$70.000 COP</span>
       </section>
 
-      <div class="products-grid">
+      <div class="products-grid" data-grid="oversize">
         <!-- Oversize 1 -->
         <div
           class="product-card"
+          data-category="oversize"
+          data-size="M"
           onclick="openLightbox('Camiseta Oversize, Blanca, Talla M', ['img/Overzise-Blanca,Talla M.jpeg', 'img/Overzise-Blanco,Talla M..jpeg'])"
         >
           <div class="product-image">
@@ -274,12 +344,15 @@
             <h3>Camiseta Oversize</h3>
             <p class="product-details">Blanca • Talla M</p>
             <p class="product-price">$70.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
 
         <!-- Oversize 2 -->
         <div
           class="product-card"
+          data-category="oversize"
+          data-size="M"
           onclick="openLightbox('Camiseta Oversize, Gris, Talla M', ['img/Overzise-Gris,Talla M.jpeg', 'img/Overzise-Gris,Talla M..jpeg'])"
         >
           <div class="product-image">
@@ -290,12 +363,15 @@
             <h3>Camiseta Oversize</h3>
             <p class="product-details">Gris • Talla M</p>
             <p class="product-price">$70.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
 
         <!-- Oversize 3 -->
         <div
           class="product-card"
+          data-category="oversize"
+          data-size="M"
           onclick="openLightbox('Camiseta Oversize, Marrón Claro, Talla M', ['img/Overzise-Marron Claro,Talla M.jpeg', 'img/Overzise-Marron Claro,Talla M..jpeg'])"
         >
           <div class="product-image">
@@ -309,12 +385,15 @@
             <h3>Camiseta Oversize</h3>
             <p class="product-details">Marrón Claro • Talla M</p>
             <p class="product-price">$70.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
 
         <!-- Oversize 4 -->
         <div
           class="product-card"
+          data-category="oversize"
+          data-size="M"
           onclick="openLightbox('Camiseta Oversize, Marrón, Talla M', ['img/Overzise-Marron,Talla M.jpeg', 'img/Overzise-Marron,Talla M..jpeg'])"
         >
           <div class="product-image">
@@ -328,12 +407,15 @@
             <h3>Camiseta Oversize</h3>
             <p class="product-details">Marrón • Talla M</p>
             <p class="product-price">$70.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
 
         <!-- Oversize 5 -->
         <div
           class="product-card"
+          data-category="oversize"
+          data-size="M"
           onclick="openLightbox('Camiseta Oversize, Negra, Talla M', ['img/Overzise-Negra,Talla M.jpeg', 'img/Overzise-Negra,Talla M..jpeg'])"
         >
           <div class="product-image">
@@ -344,12 +426,15 @@
             <h3>Camiseta Oversize</h3>
             <p class="product-details">Negra • Talla M</p>
             <p class="product-price">$70.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
 
         <!-- Oversize 6 -->
         <div
           class="product-card"
+          data-category="oversize"
+          data-size="M"
           onclick="openLightbox('Camiseta Oversize, Negro, Talla M', ['img/Overzise-Negro,Talla M.jpeg', 'img/Overzise-Negro,Talla M..jpeg'])"
         >
           <div class="product-image">
@@ -360,6 +445,7 @@
             <h3>Camiseta Oversize</h3>
             <p class="product-details">Negro • Talla M</p>
             <p class="product-price">$70.000</p>
+            <span class="product-fabric">100% Algodón peinado</span>
           </div>
         </div>
       </div>
