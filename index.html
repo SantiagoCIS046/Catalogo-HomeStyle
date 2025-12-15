@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Style - Catálogo</title>
+    <link rel="icon" type="image/jpeg" href="icon/logo de proyecto.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <h1 class="logo">SC-HOME STYLE</h1>
+        <p class="tagline">STREET WEAR • URBAN CULTURE</p>
+      </div>
+    </header>
+
+    <!-- Main Catalog -->
+    <main class="catalog">
+      <!-- Alerta informativa -->
+      <div class="alert-banner">
+        <span class="alert-icon">📢</span>
+        <p>
+          Al momento de escoger tu producto por favor dirigirte a la sección de
+          pago. Para más información escríbele al proveedor al número
+          <strong>3103504084</strong>, coméntale qué producto escogiste, junto a
+          tu dirección para enviar tu pedido.
+        </p>
+      </div>
+
+      <section class="section-title">
+        <h2>CAMISETAS ESTAMPADAS</h2>
+        <span class="price-tag">$60.000 COP</span>
+      </section>
+
+      <div class="products-grid">
+        <!-- Producto 1 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Estampada, Blanco, Talla S', ['img/Camiseta Estampada, Blanco, Talla S.jpeg', 'img/Camiseta Estampada, Blanco, Talla S. (2).jpeg'])"
+        >
+          <div class="product-image">
+            <img
+              src="img/Camiseta Estampada, Blanco, Talla S.jpeg"
+              alt="Camiseta Estampada Blanco S"
+            />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Estampada</h3>
+            <p class="product-details">Blanco • Talla S</p>
+            <p class="product-price">$60.000</p>
+          </div>
+        </div>
+
+        <!-- Producto 2 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Estampada, Gris Claro, Talla S', ['img/Camiseta Estampada, Gris Claro, Talla S.jpeg', 'img/Camiseta Estampada, Gris Claro, Talla S..jpeg'])"
+        >
+          <div class="product-image">
+            <img
+              src="img/Camiseta Estampada, Gris Claro, Talla S.jpeg"
+              alt="Camiseta Estampada Gris Claro S"
+            />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Estampada</h3>
+            <p class="product-details">Gris Claro • Talla S</p>
+            <p class="product-price">$60.000</p>
+          </div>
+        </div>
+
+        <!-- Producto 3 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Estampada, Negro, Talla S', ['img/Camiseta Estampada, negro, Talla S.jpeg', 'img/Camiseta Estampada, negro, Talla S..jpeg'])"
+        >
+          <div class="product-image">
+            <img
+              src="img/Camiseta Estampada, negro, Talla S.jpeg"
+              alt="Camiseta Estampada Negro S"
+            />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Estampada</h3>
+            <p class="product-details">Negro • Talla S</p>
+            <p class="product-price">$60.000</p>
+          </div>
+        </div>
+
+        <!-- Producto 4 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Estampada, Negro, Talla S', ['img/Camiseta Estampada, color Negro, Talla S.jpeg', 'img/Camiseta Estampada, color Negro, Talla S..jpeg'])"
+        >
+          <div class="product-image">
+            <img
+              src="img/Camiseta Estampada, color Negro, Talla S.jpeg"
+              alt="Camiseta Estampada Negro S"
+            />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Estampada</h3>
+            <p class="product-details">Negro • Talla S</p>
+            <p class="product-price">$60.000</p>
+          </div>
+        </div>
+
+        <!-- Producto 5 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Estampada, Blanco, Talla M', ['img/Camiseta Estampada, color Blanco, Talla M.jpeg', 'img/Camiseta Estampada, color Blanco, Talla M..jpeg'])"
+        >
+          <div class="product-image">
+            <img
+              src="img/Camiseta Estampada, color Blanco, Talla M.jpeg"
+              alt="Camiseta Estampada Blanco M"
+            />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Estampada</h3>
+            <p class="product-details">Blanco • Talla M</p>
+            <p class="product-price">$60.000</p>
+          </div>
+        </div>
+
+        <!-- Producto 6 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Estampada, Negro, Talla M', ['img/Camiseta Estampada, color Negro, Talla M.jpeg', 'img/Camiseta Estampada, color Negro, Talla M..jpeg'])"
+        >
+          <div class="product-image">
+            <img
+              src="img/Camiseta Estampada, color Negro, Talla M.jpeg"
+              alt="Camiseta Estampada Negro M"
+            />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Estampada</h3>
+            <p class="product-details">Negro • Talla M</p>
+            <p class="product-price">$60.000</p>
+          </div>
+        </div>
+
+        <!-- Producto 7 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Estampada, Hueso, Talla M', ['img/Camiseta Estampada, color hueso, Talla M.jpeg', 'img/Camiseta Estampada, color hueso, Talla M..jpeg'])"
+        >
+          <div class="product-image">
+            <img
+              src="img/Camiseta Estampada, color hueso, Talla M.jpeg"
+              alt="Camiseta Estampada Hueso M"
+            />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Estampada</h3>
+            <p class="product-details">Hueso • Talla M</p>
+            <p class="product-price">$60.000</p>
+          </div>
+        </div>
+
+        <!-- Producto 8 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Estampada, Rojo, Talla M', ['img/Camiseta Estampada, color rojo, Talla M.jpeg', 'img/Camiseta Estampada, color rojo, Talla M..jpeg'])"
+        >
+          <div class="product-image">
+            <img
+              src="img/Camiseta Estampada, color rojo, Talla M.jpeg"
+              alt="Camiseta Estampada Rojo M"
+            />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Estampada</h3>
+            <p class="product-details">Rojo • Talla M</p>
+            <p class="product-price">$60.000</p>
+          </div>
+        </div>
+
+        <!-- Producto 9 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Estampada, Hueso, Talla L', ['img/Camiseta Estampada, Hueso, Talla L.jpeg', 'img/Camiseta Estampada, Hueso, Talla L..jpeg'])"
+        >
+          <div class="product-image">
+            <img
+              src="img/Camiseta Estampada, Hueso, Talla L.jpeg"
+              alt="Camiseta Estampada Hueso L"
+            />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Estampada</h3>
+            <p class="product-details">Hueso • Talla L</p>
+            <p class="product-price">$60.000</p>
+          </div>
+        </div>
+
+        <!-- Producto 10 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Estampada, Negro, Talla L', ['img/Camiseta Estampada, Negro, Talla L.jpeg', 'img/Camiseta Estampada, Negro, Talla L..jpeg'])"
+        >
+          <div class="product-image">
+            <img
+              src="img/Camiseta Estampada, Negro, Talla L.jpeg"
+              alt="Camiseta Estampada Negro L"
+            />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Estampada</h3>
+            <p class="product-details">Negro • Talla L</p>
+            <p class="product-price">$60.000</p>
+          </div>
+        </div>
+
+        <!-- Producto 11 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Estampada, Verde Militar, Talla L', ['img/Camiseta Estampada, Verde Militar,  Talla L.jpeg', 'img/Camiseta Estampada, Verde Militar, Talla L..jpeg'])"
+        >
+          <div class="product-image">
+            <img
+              src="img/Camiseta Estampada, Verde Militar,  Talla L.jpeg"
+              alt="Camiseta Estampada Verde Militar L"
+            />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Estampada</h3>
+            <p class="product-details">Verde Militar • Talla L</p>
+            <p class="product-price">$60.000</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Oversize Section -->
+      <section class="section-title">
+        <h2>CAMISETAS OVERSIZE</h2>
+        <span class="price-tag">$70.000 COP</span>
+      </section>
+
+      <div class="products-grid">
+        <!-- Oversize 1 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Oversize, Blanca, Talla M', ['img/Overzise-Blanca,Talla M.jpeg', 'img/Overzise-Blanco,Talla M..jpeg'])"
+        >
+          <div class="product-image">
+            <img
+              src="img/Overzise-Blanca,Talla M.jpeg"
+              alt="Oversize Blanca M"
+            />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Oversize</h3>
+            <p class="product-details">Blanca • Talla M</p>
+            <p class="product-price">$70.000</p>
+          </div>
+        </div>
+
+        <!-- Oversize 2 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Oversize, Gris, Talla M', ['img/Overzise-Gris,Talla M.jpeg', 'img/Overzise-Gris,Talla M..jpeg'])"
+        >
+          <div class="product-image">
+            <img src="img/Overzise-Gris,Talla M.jpeg" alt="Oversize Gris M" />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Oversize</h3>
+            <p class="product-details">Gris • Talla M</p>
+            <p class="product-price">$70.000</p>
+          </div>
+        </div>
+
+        <!-- Oversize 3 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Oversize, Marrón Claro, Talla M', ['img/Overzise-Marron Claro,Talla M.jpeg', 'img/Overzise-Marron Claro,Talla M..jpeg'])"
+        >
+          <div class="product-image">
+            <img
+              src="img/Overzise-Marron Claro,Talla M.jpeg"
+              alt="Oversize Marrón Claro M"
+            />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Oversize</h3>
+            <p class="product-details">Marrón Claro • Talla M</p>
+            <p class="product-price">$70.000</p>
+          </div>
+        </div>
+
+        <!-- Oversize 4 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Oversize, Marrón, Talla M', ['img/Overzise-Marron,Talla M.jpeg', 'img/Overzise-Marron,Talla M..jpeg'])"
+        >
+          <div class="product-image">
+            <img
+              src="img/Overzise-Marron,Talla M.jpeg"
+              alt="Oversize Marrón M"
+            />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Oversize</h3>
+            <p class="product-details">Marrón • Talla M</p>
+            <p class="product-price">$70.000</p>
+          </div>
+        </div>
+
+        <!-- Oversize 5 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Oversize, Negra, Talla M', ['img/Overzise-Negra,Talla M.jpeg', 'img/Overzise-Negra,Talla M..jpeg'])"
+        >
+          <div class="product-image">
+            <img src="img/Overzise-Negra,Talla M.jpeg" alt="Oversize Negra M" />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Oversize</h3>
+            <p class="product-details">Negra • Talla M</p>
+            <p class="product-price">$70.000</p>
+          </div>
+        </div>
+
+        <!-- Oversize 6 -->
+        <div
+          class="product-card"
+          onclick="openLightbox('Camiseta Oversize, Negro, Talla M', ['img/Overzise-Negro,Talla M.jpeg', 'img/Overzise-Negro,Talla M..jpeg'])"
+        >
+          <div class="product-image">
+            <img src="img/Overzise-Negro,Talla M.jpeg" alt="Oversize Negro M" />
+            <div class="image-indicator">1/2</div>
+          </div>
+          <div class="product-info">
+            <h3>Camiseta Oversize</h3>
+            <p class="product-details">Negro • Talla M</p>
+            <p class="product-price">$70.000</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+      <div class="lightbox-content">
+        <button type="button" class="close-btn" onclick="closeLightbox(event)">
+          &times;
+        </button>
+        <button
+          type="button"
+          class="nav-btn prev"
+          onclick="changeImage(-1, event)"
+        >
+          &#10094;
+        </button>
+        <img id="lightbox-img" src="" alt="Producto" />
+        <button
+          type="button"
+          class="nav-btn next"
+          onclick="changeImage(1, event)"
+        >
+          &#10095;
+        </button>
+        <div class="lightbox-info">
+          <h3 id="lightbox-title"></h3>
+          <p id="lightbox-counter"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Payment Info -->
+    <footer class="footer">
+      <div class="payment-info">
+        <div class="payment-icon">💳</div>
+        <h3>INFORMACIÓN DE PAGO</h3>
+        <div class="payment-method">
+          <img src="icon/pago-movil.png" alt="Nequi" class="nequi-logo" />
+          <div class="payment-details">
+            <span class="method-name">Nequi</span>
+            <span class="method-number">3103504084</span>
+          </div>
+        </div>
+        <p class="payment-note">
+          Envía el comprobante de pago por WhatsApp al mismo número
+        </p>
+        <!-- Alerta en sección de pago -->
+        <div class="alert-banner alert-footer">
+          <span class="alert-icon">📢</span>
+          <p>
+            Al momento de escoger tu producto por favor dirigirte a la sección
+            de pago. Para más información escríbele al proveedor al número
+            <strong>3103504084</strong>, coméntale qué producto escogiste, junto
+            a tu dirección para enviar tu pedido.
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Home Style • Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
